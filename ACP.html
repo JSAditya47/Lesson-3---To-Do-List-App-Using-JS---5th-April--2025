@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lobster&display=swap"
+      rel="stylesheet"
+    />
+
+    <style>
+      body {
+        background-color: rgb(16, 76, 129);
+        color: white;
+        text-shadow: rgb(0, 255, 238) 3px 3px 8px;
+        font-family: Lobster;
+        letter-spacing: 3.75px;
+        font-style: italic;
+        font-weight: bold;
+        font-size: 27px;
+
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: 500px;
+      }
+
+      button {
+        font-family: cursive;
+        font-size: 17px;
+        background-color: black;
+        color: white;
+        border: 3px solid white;
+        font-style: italic;
+      }
+
+      img {
+        border: 10px solid black;
+        width: 150px;
+      }
+    </style>
+  </head>
+  <body>
+    <h3>Add Your Shopping List Here</h3>
+
+    <form id="myForm">
+      <input type="text" id="myInput" />
+      <button>Add</button>
+    </form>
+
+    <h3>Shopping List</h3>
+    <ul id="myItem"></ul>
+
+    <h1>Happy Shopping Mate!</h1>
+
+    <figure>
+      <img
+        src="https://img.freepik.com/free-vector/seasonal-sale-discounts-presents-purchase-visiting-boutiques-luxury-shopping-price-reduction-promotional-coupons-special-holiday-offers-vector-isolated-concept-metaphor-illustration_335657-2766.jpg?w=360"
+        alt="image"
+      />
+    </figure>
+    <script src="script.js"></script>
+  </body>
+</html>
